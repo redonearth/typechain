@@ -5,5 +5,9 @@
   "main": "index.js",
   "repository": "https://github.com/redonearth/typechain",
   "author": "Redonearth <wona23@gmail.com>",
-  "license": "MIT"
+  "license": "MIT",
+  "scripts": {
+    "start": "node index.js",
+    "prestart": "tsc"
+  }
 }
